@@ -1,11 +1,11 @@
-# Byullage
+# BYUllage
 
 ## Description
 
 ### Elevator pitch
 
-Have you ever had some problem buying expensive books or items? Byullage will help students living in the campus to trade used items
-within campus without going far to trade the used items. The name of the website is Byullage, a name combining BYU and village. Only a student, faculty, and staff who has byu.edu can use this website. The user can create a post whether he/she wants to buy/sell some item. Another user can write a comment to response to this post. Then the user who got a response will get notification. After that, the user who created post and the other user who commented can choose time and place to meet by communicating in the post. These are the main functions of Byullage that could help Byu community to trade better inside the campus. Since there is no website that allows only byu members to trade within the campus, I strongly believe there will be a demand for this website. 
+Have you ever had some problem buying expensive books or items? BYUllage will help students living in the campus to trade used items
+within campus without going far to trade the used items. The name of the website is BYUllage, a name combining BYU and village. Only a student, faculty, and staff who has byu.edu can use this website. The user can create a post whether he/she wants to buy/sell some item. Another user can write a comment to response to this post. Then the user who got a response will get notification. After that, the user who created post and the other user who commented can choose time and place to meet by communicating in the post. These are the main functions of Byullage that could help Byu community to trade better inside the campus. Since there is no website that allows only byu members to trade within the campus, I strongly believe there will be a demand for this website. 
 
 ### Design
 
