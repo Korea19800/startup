@@ -4,9 +4,6 @@
 
 ### Elevator pitch
 
-Have you ever endlessly debated with your friends about where to meet for lunch, or had your team bog down about an important decision that needs to be made. The Voting application makes it so a group of people can pull out their phones, clearly see the options, and pick their top three choices. As each user makes their choices the results are automatically tallied and displayed in realtime to all the other group members. Once everyone locks in their choices the group can move forward with confidence that the best option has been selected.
-
-
 Have you ever had some problem buying expensive books or items? Byullage will help students living in the campus to trade used items
 within campus without going far to trade the used items. The name of the website is Byullage, a name combining BYU and village. Only a student, faculty, and staff who has byu.edu can use this website. The user can create a post whether he/she wants to buy/sell some item. Another user can write a comment to response to this post. Then the user who got a response will get notification. After that, the user who created post and the other user who commented can choose time and place to meet by communicating in the post. These are the main functions of Byullage that could help Byu community to trade better inside the campus. Since there is no website that allows only byu members to trade within the campus, I strongly believe there will be a demand for this website. 
 
