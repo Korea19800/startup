@@ -35,14 +35,15 @@ I am going to use the required technologies in the following ways.
   - retrieving number of comments, status, title, price, views, and date of a post
   - handle user submissions, such as comment.
   
-- **DB** - Store user profile, posts, comments in database.
+- **DB** - A backend database using MongoDB will be used to store the user's profile, posts, comments, and other relevant information.
+
 - **Login**
   - User authentication will be implemented to ensure that only registered users can post, comment, or engage in discussions.
   - Credentials securely stored in database. Can't vote unless authenticated.
   - It will force users to make an id with byu.edu email. To implement this, download the nodemailer module in Node.js which allows us to send verification messages to the designated email address.
   - secure authentication methods, such as OAuth or JWT, will be used to protect user accounts and data.
 
-- **WebSocket** - As each user responds to a comments, their comments are broadcast to the comment which a user responded to.
+- **WebSocket** - users can get real time notification if someone responds to the user’s post or comment.
 - **React** - Application will use the React web framework.
 
 
