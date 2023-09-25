@@ -11,31 +11,31 @@ within campus without going far to trade the used items. The name of the website
 ### Design
 ![Byullage](https://github.com/Korea19800/startup/assets/52956141/f5a29ce5-994a-4d60-8d56-5f1f8de8d39e)
 
-Here is a sequence diagram that shows how to people would interact with the backend to vote.
-
 ### Key features
+
 - Secure login over HTTPS
-- Ability to select the question to decide
-- Display of choices
-- Ability to select, and change, top three choices
-- Totals from all users displayed in realtime
-- Ability for a user to lock in their top three
-- Results are persistently stored
-- Ability for admin to create and delete questions
+- Force user to use byu.edu email to confirm whether user is a member of BYU
+- Ability to write a post
+- Aility to comment on a post
+- Ability for admin to edit and delete posts and comments
+- User gets simple notification if someone responds to comment or post.
+- Display of possts including information such as title, the number of comments, price, and date
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for voting. Hyperlinks to choice artifact.
+- **HTML** - Uses correct HTML structure for application. Two HTML pages.
+  One for login and displaying posts. One for reading specific information of a post. 
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
-- **JavaScript** - Provides login, choice display, applying votes, display other users votes, backend endpoint calls.
-- **Service** - Backend service with endpoints for:
-  - login
-  - retrieving choices
-  - submitting votes
-  - retrieving vote status
-- **DB** - Store users, choices, and votes in database.
+- **JavaScript** - Provides login, create a post, write a comment, notification of response to a user, backend endpoint calls.
+- **Web Service**
+  - manage user authentication and data storage.
+  - retrieve post listings from the server.
+  - retrieving number of comments, status, title, price, views, and date of a post
+  - handle user submissions, such as comment.
+  
+- **DB** - Store user profile, posts, comments in database.
 - **Login** - Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
 - **React** - Application ported to use the React web framework.
