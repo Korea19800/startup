@@ -9,6 +9,7 @@ within campus without going far to trade the used items. The name of the website
 
 ### Design
 
+![ByullageDesign]()
 ![Mock](voterMockUI.jpg)
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
