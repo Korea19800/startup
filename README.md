@@ -9,7 +9,7 @@ within campus without going far to trade the used items. The name of the website
  in the post. These are the main functions of Byullage that could help Byu community to trade better inside the campus. Since there is no website that allows only byu members to trade within the campus, I strongly believe there will be a demand for this website. 
 
 ### Design
-![Byullage](https://github.com/Korea19800/startup/assets/52956141/54ef766c-616b-4c4c-809a-4423803432fc)
+![Byullage](https://github.com/Korea19800/startup/assets/52956141/f5a29ce5-994a-4d60-8d56-5f1f8de8d39e)
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
