@@ -45,6 +45,19 @@ I am going to use the required technologies in the following ways.
 - **WebSocket** - users can get real time notification if someone responds to the user’s post or comment.
 - **React** - Application will use the React web framework.
 
+## HTML deliverable
+
+For this deliverable I built out the structure of my application using HTML.
+
+- **HTML pages** - Three HTML page: Home for login, Post for posts and comments, About page introducing website, and Ranking page shows user's monthly rank.
+- **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
+- **Text** - Each of the voting choices is represented by a textual description.
+- **Images** - I couldn't figure out how to include an image and so I didn't do this. 😔
+- **Login** - Input box and submit button for login.
+- **Database** - The voting choices represent data pulled from the database.
+- **WebSocket** - The count of voting results represent the tally of realtime votes.
+
+
 
 
 
