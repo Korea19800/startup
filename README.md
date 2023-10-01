@@ -49,13 +49,13 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I built out the structure of my application using HTML.
 
-- **HTML pages** - Three HTML page: Home for login, Post for posts and comments, About page introducing website, and Ranking page shows user's monthly rank.
-- **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
-- **Text** - Each of the voting choices is represented by a textual description.
-- **Images** - I couldn't figure out how to include an image and so I didn't do this. 😔
-- **Login** - Input box and submit button for login.
-- **Database** - The voting choices represent data pulled from the database.
-- **WebSocket** - The count of voting results represent the tally of realtime votes.
+- **HTML pages** - Four HTML page: Home for login, Post for posts and comments, About page introducing website, and Ranking page shows user's monthly rank.
+- **Text** - About page's explanation regarding website is represented by a textual description.
+- **Images** - included image of Y and a cougar. 
+- **Login** - Input box for ID and Password. Also submit button for login.
+- **3rd party service call** - 
+- **Database** - The information about posts represent data pulled from the database.
+- **WebSocket** - The count of views,comments results represent the tally of realtime votes.
 
 
 
