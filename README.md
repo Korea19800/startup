@@ -54,8 +54,8 @@ For this deliverable I built out the structure of my application using HTML.
 - **Images** - included image of Y and a cougar. 
 - **Login** - Input box for ID and Password. Also submit button for login.
 - **3rd party service call** - 
-- **Database** - The information about posts represent data pulled from the database.
-- **WebSocket** - The count of views,comments results represent the tally of realtime votes.
+- **Database** - The information about posts(title,date) in the posts page represent data pulled from the database.
+- **WebSocket** - The count of views,comments in post page and ranking page shows the realtime number of views and comments.
 
 
 
