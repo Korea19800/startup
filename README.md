@@ -53,7 +53,8 @@ For this deliverable I built out the structure of my application using HTML.
 - **Text** - About page's explanation regarding website is represented by a textual description.
 - **Images** - included image of Y and a cougar. 
 - **Login** - Input box for ID and Password. Also submit button for login.
-- **3rd party service call** - 
+- **3rd party service call** - There is a quote section in the About webpage. For example, currently I am using 'Itmes are cheap When you use BYUllage.' This is a placeholder for
+  a quote coming via 3rd party API call. 
 - **Database** - The information about posts(title,date) in the posts page represent data pulled from the database.
 - **WebSocket** - The count of views,comments in post page and ranking page shows the realtime number of views and comments.
 
