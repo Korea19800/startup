@@ -15,7 +15,7 @@ Link to [ReadME](https://github.com/Korea19800/startup/blob/main/README.md).
 *search disable chrome cache*
 
 
-*./deployFiles.sh -k /Users/kjkim/Desktop/2324Fall/CS260/startup/cs260.pem -h byullage.click -s simon*
+*./deployFiles.sh -k /location.pem -h byullage.click -s simon*
 <br>
-*./deployFiles.sh -k /Users/kjkim/Desktop/2324Fall/CS260/startup/cs260.pem -h byullage.click -s startup*
+*./deployFiles.sh -k /location.pem -h byullage.click -s startup*
 
