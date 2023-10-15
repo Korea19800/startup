@@ -58,6 +58,19 @@ For this deliverable I built out the structure of my application using HTML.
 - **Database** - The information about posts(title,date) in the posts page represent data pulled from the database.
 - **WebSocket** - The count of views,comments in post page and ranking page shows the realtime number of views and comments.
 
+## CSS deliverable
+
+For this deliverable I properly styled the application into its final appearance.
+
+- **Header, footer, and main content body**
+- **Navigation elements** - I dropped the underlines and changed the color for anchor elements.
+- **Responsive to window resizing** - My app looks great on all window sizes and devices
+- **Application elements** - Used good contrast and whitespace
+- **Application text content** - Consistent fonts
+- **Application images** - Added Cougar image in the main page.
+
+
+
 
 
 
