@@ -63,9 +63,9 @@ For this deliverable I built out the structure of my application using HTML.
 For this deliverable I properly styled the application into its final appearance.
 
 - **Header, footer, and main content body: Used CSS for each part**
-- **Navigation elements** - I put Y image next to BYUllage logo and changed the color of nav bar.
+- **Navigation elements** - I put Y image next to BYUllage logo and changed the color of nav bar to blue.
 - **Responsive to window resizing** - My app looks great on all window sizes and devices
-- **Application elements** - Used good contrast and whitespace to improve UI convenience
+- **Application elements** - Used good color contrast(blue,black,and white) and whitespace. Easy to differentiate elements
 - **Application text content** - Consistent fonts
 - **Application images** - Added Cougar image in the home page.
 
