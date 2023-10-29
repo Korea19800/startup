@@ -19,3 +19,6 @@ Link to [ReadME](https://github.com/Korea19800/startup/blob/main/README.md).
 <br>
 *./deployFiles.sh -k /location.pem -h byullage.click -s startup*
 
+* https://www.inflearn.com/course/lecture?courseSlug=jsp-%EA%B2%8C%EC%8B%9C%ED%8C%90&unitId=6459
+
+
