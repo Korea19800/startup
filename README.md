@@ -75,9 +75,8 @@ For this deliverable I implemented by JavaScript so that the application works f
 
 - **login** - If you press login button, it goes to post page.
 - **database** - Displayed the updated views of posts(in post page). Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
-- **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
-- **application logic** - The ranking number change based on the post's views. 
-
+- **WebSocket** - I used the notificatoin function to notify username when user logs in. This will be replaced with WebSocket push messages to user when someone responds to user's comment or post in the future.
+- **application logic** - When user clicks the title of post, the view get increased. The ranking(of post) will be decided with the post's view in the future.
 
 
 
