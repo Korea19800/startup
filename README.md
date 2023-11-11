@@ -79,6 +79,16 @@ For this deliverable I implemented by JavaScript so that the application works f
 In the future, This will be replaced with WebSocket push messages to user when someone responds user's comment or post in the future.
 - **application logic** - When user clicks the title of post, the view get increased. The ranking(of post) will be decided with the post's view in the future.
 
+## Service deliverable
+
+For this deliverable I added backend endpoints that returns the number of posts and comments. Also the ranking page returns rankings based on these numbers.
+
+- **Node.js/Express HTTP service** - done!
+- **Static middleware for frontend** - done!
+- **Calls to third party endpoints** - I didn't have time to implement this. 😔
+- **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for voting.
+- **Frontend calls service endpoints** - I did this using the fetch function.
+
 
 
 
