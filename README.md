@@ -82,8 +82,9 @@ In the future, This will be replaced with WebSocket push messages to user when s
 ## Service deliverable
 
 For this deliverable I added backend endpoints that returns the number of posts and comments. Also the ranking page returns rankings based on these numbers.
+Finally, User can write a post in the post webpage
 
-- **Node.js/Express HTTP service** - done! User can write post in the post webpage
+- **Node.js/Express HTTP service** - done! 
 - **Static middleware for frontend** - done!
 - **Calls to third party endpoints** - I will implement this later when I use React to design my service.
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server.
