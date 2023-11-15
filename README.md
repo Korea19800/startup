@@ -81,8 +81,8 @@ In the future, This will be replaced with WebSocket push messages to user when s
 
 ## Service deliverable
 
-For this deliverable I added backend endpoints that returns the number of posts and comments. Also the ranking page returns rankings based on these numbers.
-Finally, User can write a post in the post webpage
+For this deliverable I added backend endpoints that brings quotes and images randomly from third party. Also, users can write a post in the post webpage
+Finally, the website will return the number of posts and comments in the future and show the rankings based on these numbers.
 
 - **Node.js/Express HTTP service** - done! 
 - **Static middleware for frontend** - done!
