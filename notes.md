@@ -21,4 +21,7 @@ Link to [ReadME](https://github.com/Korea19800/startup/blob/main/README.md).
 
 * https://www.inflearn.com/course/lecture?courseSlug=jsp-%EA%B2%8C%EC%8B%9C%ED%8C%90&unitId=6459
 
+**Node.js**
+* To use node packages -> npm init (need to download node package manager) first -> package.json is created
+* then can download express.js
 
