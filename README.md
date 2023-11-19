@@ -90,6 +90,24 @@ Finally, the website will return the number of posts and comments in the future 
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server.
 - **Frontend calls service endpoints** - I do not use this function in my app.
 
+## DB deliverable
+
+For this deliverable I stored the views of posts in the database.
+
+- **MongoDB Atlas database created** - done!
+- **Endpoints for data** - My stubbed out endpoints now process the data and send it to Mongo.
+- **Stores data in MongoDB** - done!
+
+## Login deliverable
+
+For this deliverable I associate the authoruty to write posts with the logged in user.
+
+- **User registration** - Creates a new account in the database.
+- **existing user** - Stores the information of past posts under the same user if the user already exists.
+- **Use MongoDB to store credentials** - Stores both user and their posts.
+- **Restricts functionality** - You cannot write post until you have logged in. This is restricted on the frontend only. 😔
+
+
 
 
 
