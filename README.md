@@ -88,7 +88,7 @@ Finally, the website will return the number of posts and comments in the future 
 - **Static middleware for frontend** - done!
 - **Calls to third party endpoints** - Changes a quote and image in about webpage
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server.
-- **Frontend calls service endpoints** - I do not use this function in my app.
+- **Frontend calls service endpoints** - I used fetch() function.
 
 ## DB deliverable
 
