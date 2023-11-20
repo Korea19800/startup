@@ -15,22 +15,6 @@ app.use(express.static('public'));
 var apiRouter = express.Router();
 app.use(`/api`, apiRouter);
 
-/*  
-// GetScores
-apiRouter.get('/scores', async (_req, res) => {
-  const scores = await DB.getHighScores();
-  res.send(scores);
-});
-
-
-// SubmitScore
-apiRouter.post('/score', async (req, res) => {
-  DB.addScore(req.body);
-  const scores = await DB.getHighScores();
-  res.send(scores);
-});
-*/
-
 // Return the application's default page if the path is unknown
 app.use((_req, res) => {
   res.sendFile('index.html', {root: 'public'});
