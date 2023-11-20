@@ -92,10 +92,10 @@ Finally, the website will return the number of posts and comments in the future 
 
 ## DB deliverable
 
-For this deliverable I stored the views of posts in the database.
+For this deliverable I stored the views of posts(updated when clicked) in the database.
 
 - **MongoDB Atlas database created** - done!
-- **Endpoints for data** - My stubbed out endpoints now process the data and send it to Mongo.
+- **Endpoints for data** - My endpoints now process the data and send it to Mongo.
 - **Stores data in MongoDB** - done!
 
 ## Login deliverable
