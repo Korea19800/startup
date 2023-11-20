@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BYUllage</title>
+    <link rel="icon" href="y.svg" />
+    
+    <!-- Include bootstrap CSS framework -->
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    /> 
+    <!-- JS -->
+    <script src="button.js"></script>
+  </head>
+  
+  <body class="bg-primary text-light">
+    <!-- Use header, main, and footer elements to give semantic structure -->
+    <header class="container-fluid">
+      <!-- Navigation elements -->
+      <nav class="navbar fixed-top navbar-dark">
+          <a class="navbar-brand" href="#">BYUllage<sup>&reg;</sup></a>
+          <!--  Y image saved <img src="y.svg" width="50">   -->  
+          <img src="y.svg" width="30">
+          <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+          <menu class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="ranking.html">Ranking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="posts.html">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </menu>
+      </nav>
+    </header>
+
+    <main class="container-fluid bg-secondary text-center">
+      <table class="table table-warning table-striped-columns">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Post</th>
+            <th>Views</th>
+          </tr>
+        </thead>
+        <tbody id="rankingTableBody">
+          <tr>
+            <td>1</td>
+            <td>Selling Almost brand new Ipad</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Wanna buy secondhand TV</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Selling 'Intro to Algorithm' book</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer class="bg-primary text-blue-50">
+      <div class="container-fluid">
+        <span class="text-reset">KJ's Github</span>
+        <a class="text-reset" href="https://github.com/Korea19800/startup">GitHub Repository</a>
+      </div>
+    </footer>
+
+    <script>
+      ranking();
+    </script>
+
+  </body>
+</html>

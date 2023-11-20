@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BYUllage</title>
+    <link rel="icon" href="y.svg" />
+
+    
+   
+    <!-- CSS + Bootstrap Part-->
+    <link rel="stylesheet" href="main.css"/>
+    <!-- Include bootstrap CSS framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- JS --> 
+    <!--  <script src="button.js"></script>  -->
+    <script src="login.js"></script>
+
+  </head>
+
+  <body class="bg-primary text-light">
+    <!-- Use header, main, and footer elements to give semantic structure -->
+    <header class="container-fluid">
+      <!-- Navigation elements -->
+      <nav class="navbar fixed-top navbar-dark">
+          <a class="navbar-brand" href="#">BYUllage<sup>&reg;</sup></a>
+          <!--  Y image saved <img src="y.svg" width="50">   -->  
+          <img src="y.svg" width="30">
+          <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+          <menu class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ranking.html">Ranking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="posts.html">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </menu>
+      </nav>
+    </header>
+
+    <main class="container-fluid bg-dark text-center">
+      <div> 
+        <h1>Welcome Cougars</h1>
+        <img src="https://media.istockphoto.com/id/585326876/photo/puma-portrait.jpg?s=612x612&w=0&k=20&c=6sLLVKfWihxz8VbyHFUk_REw4oT52oE4mNozwiHayro="
+        width="200">
+      </div>
+
+      <div> 
+        <h3>Login First</h3>
+        <div>
+          <input type="text" id="name" placeholder="Type your byu email" />
+          <input type="text" id="passowrd" placeholder="Type your password" />
+          <button class="btn btn-primary" onclick="login()">Login</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-primary text-light-50">
+      <div class="container-fluid">
+        <span class="text-reset">KJ's Github</span>
+        <a class="text-reset" href="https://github.com/Korea19800/startup">GitHub Repository</a>
+      </div>
+    </footer>
+  </body>
+</html>
