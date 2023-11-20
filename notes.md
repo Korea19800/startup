@@ -26,6 +26,8 @@ Link to [ReadME](https://github.com/Korea19800/startup/blob/main/README.md).
 
 * Internally on your web server, you can have as many web services running as you would like. However, you must make sure that each one uses a different port to communicate on. You run your Simon service on port 3000 and therefore cannot use port 3000 for your startup service. Instead you use port 4000 for your startup service. It does not matter what high range port you use. It only matters that you are consistent and that they are only used by one service.
 
+* NOTE - The deployment script for this project is different from previous deployment scripts, since it needs to set up the Node.js service for your backend code, and copy your frontend code to the public directory. You also want to make sure that your Node.js HTTP service code for Simon is configured to listen on port 3000. When you deploy your Startup you want to make sure that code is configured to listen on port 4000.
+
 **Node.js**
 * To use node packages -> npm init (need to download node package manager) first -> package.json is created
 * then can download express.js -> npm i express
