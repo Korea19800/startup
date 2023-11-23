@@ -32,3 +32,6 @@ Link to [ReadME](https://github.com/Korea19800/startup/blob/main/README.md).
 * To use node packages -> npm init (need to download node package manager) first -> package.json is created
 * then can download express.js -> npm i express
 
+** 고칠것 **
+Service부분 감점 당한거 고칠려면 post click시에 조회수 늘어난거 저장하는 DB기능 고칠때 같이 index.js에 endpoint넣어줘서 고치자
+simon예시 보면서 코드 이해하고 score ranking구하는 방식 공부해서 고쳐보기
