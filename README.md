@@ -107,6 +107,15 @@ For this deliverable I associate the authoruty to write posts with the logged in
 - **Use MongoDB to store credentials** - Stores both user and their posts.
 - **Restricts functionality** - You cannot write post until you have logged in. This is restricted on the frontend only. 😔
 
+- ## WebSocket deliverable
+
+For this deliverable I used webSocket to update the votes on the frontend in realtime.
+- **Backend listens for WebSocket connection** - done!
+- **Frontend makes WebSocket connection** - done!
+- **Data sent over WebSocket connection** - done!
+- **WebSocket data displayed** - All user clicks for posts display in realtime.
+
+
 
 
 
