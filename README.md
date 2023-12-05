@@ -113,7 +113,7 @@ For this deliverable I used webSocket to update the votes on the frontend in rea
 - **Backend listens for WebSocket connection** - done!
 - **Frontend makes WebSocket connection** - done!
 - **Data sent over WebSocket connection** - done!
-- **WebSocket data displayed** - All user clicks for posts display in realtime.
+- **WebSocket data displayed** - User can chat in the chat webpage 
 
 
 
