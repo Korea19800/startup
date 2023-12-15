@@ -107,13 +107,22 @@ For this deliverable I associate the authoruty to write posts with the logged in
 - **Use MongoDB to store credentials** - Stores both user and their posts.
 - **Restricts functionality** - You cannot write post until you have logged in. This is restricted on the frontend only. 😔
 
-- ## WebSocket deliverable
+## WebSocket deliverable
 
 For this deliverable I used webSocket to update the votes on the frontend in realtime.
 - **Backend listens for WebSocket connection** - done!
 - **Frontend makes WebSocket connection** - done!
 - **Data sent over WebSocket connection** - done!
-- **WebSocket data displayed** - User can chat in the chat webpage 
+- **WebSocket data displayed** - User can chat in the chat webpage
+
+## React deliverable
+
+For this deliverable I converted the application over to use React. 
+
+- **Bundled and transpiled** - Done!
+- **Components** - Login, chat, posts, about are all components.
+- **Router** - Routing between login and posts components.
+- **Hooks** - Done!
 
 
 
