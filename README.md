@@ -121,9 +121,8 @@ For this deliverable I converted the application over to use React.
 
 - **Bundled and transpiled** - Done!
 - **Components** - Login, chat, posts, about are all functional react components.
-- **Router** - Routing between login and posts components.
-- **Hooks** - Done!
-
+- **Router** - Routing between login,chat,posts, and about components(used <Browser Router>.
+- **Hooks** - Used useState and useEffect hook in chat.jsx to implement chat function between users.
 
 
 
