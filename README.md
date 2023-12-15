@@ -120,7 +120,7 @@ For this deliverable I used webSocket to update the votes on the frontend in rea
 For this deliverable I converted the application over to use React. 
 
 - **Bundled and transpiled** - Done!
-- **Components** - Login, chat, posts, about are all components.
+- **Components** - Login, chat, posts, about are all functional react components.
 - **Router** - Routing between login and posts components.
 - **Hooks** - Done!
 
